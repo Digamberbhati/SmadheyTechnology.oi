@@ -2,8 +2,8 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
-      <h1>about</h1>
+    <div className='flex justify-center items-center h-screen w-full'>
+      <h1 className='text-[4vw] font-bold'>about</h1>
     </div>
   )
 }
