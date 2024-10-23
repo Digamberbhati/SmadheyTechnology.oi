@@ -1,9 +1,10 @@
 import React from 'react'
+import Hero from '../components/Hero'
 
 function Home() {
   return (
-    <div className='w-full h-screen flex justify-center items-center bg-background-700'>
-      <h1 className='text-[4vw] font-bold'>Home</h1>
+    <div className='w-full min-h-screen flex justify-center items-center'>
+      <Hero />
     </div>
   )
 }
