@@ -13,7 +13,7 @@ const Navbar = () => {
    <>
    <nav className='  py-2 bg-background text-text sm:px-5 px-3 flex justify-between items-center   z-50 fixed top-0 left-0 w-full '>
  <Link to="/">  
-  <h1 className='sm:text-2xl text-[2.5vh] font-bold'>Antara Concepts</h1></Link>
+  <h1 className='sm:text-2xl text-[2.5vh] font-bold'>Smadhey Technology</h1></Link>
   
     <Link 
       onClick={() => setMenuOpen(!menuOpen)} 
@@ -36,7 +36,7 @@ const Navbar = () => {
 
             <div className='sm:w-1/2 w-full h-full hidden sm:flex items-center justify-center  px-48 py-24'>
                 <div className="box h-full w-full flex items-center justify-center ">
-                    <img src="" alt="logo" className='w-full h-full object-cover' />
+                    <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGVjaG5vbG9neXxlbnwwfDF8MHx8fDA%3D" alt="logo" className='w-full h-full object-cover' />
                 </div>
             </div>
             <div className='sm:w-1/2 h-full flex items-center justify-center '>
@@ -44,8 +44,8 @@ const Navbar = () => {
             {[
               { path: '/', label: 'HOME' },
               { path: '/about', label: 'ABOUT' },
-              { path: '/projects', label: 'PROJECTS' },
-              { path: '/gallery', label: 'GALLERY' },
+              { path: '/services', label: 'SERVICES' },
+             
               { path: '/contact', label: 'CONTACT' }
             ].map(({ path, label }) => (
               <li key={path}>
