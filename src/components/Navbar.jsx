@@ -11,15 +11,15 @@ const Navbar = () => {
 
   return (
    <>
-   <nav className='  py-2 bg-background text-text sm:px-5 px-3 flex justify-between items-center   z-50 fixed top-0 left-0 w-full '>
+   <nav className='  py-2 bg-background-400 text-text sm:px-5 px-3 flex justify-between items-center   z-50 fixed top-0 left-0 w-full '>
  <Link to="/">  
   <h1 className='sm:text-2xl text-[2.5vh] font-bold'>Smadhey Technology</h1></Link>
   
     <Link 
       onClick={() => setMenuOpen(!menuOpen)} 
-      className='sm:text-2xl  font-bold  flex items-center gap-1 group relative   '
+      className='sm:text-2xl  font-bold  flex items-center justify-center gap-1 group relative   '
     >
-      <span className='text-[3vw]'>•</span>
+      {/* <span className='text-[2.5vw] flex items-center justify-center'>•</span> */}
       <span className='text-[2.5vh] sm:text-2xl'>
         {menuOpen ? 'close' : 'menu'}
       </span>
@@ -32,7 +32,7 @@ const Navbar = () => {
      }`}
    >
      
-        <div className='w-full h-full  flex items-center justify-center '>
+        <div className='w-full h-full bg-background-400 flex items-center justify-center '>
 
             <div className='sm:w-1/2 w-full h-full hidden sm:flex items-center justify-center  px-48 py-24'>
                 <div className="box h-full w-full flex items-center justify-center ">
