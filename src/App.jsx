@@ -11,13 +11,17 @@ import Contact from './pages/contactform/Contact'
 function App() {
   return (
     <>
+    <header>
     <Navbar/>
+    </header>
+    <main>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/services" element={<Services/>}/>
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
+    </main>
     <Footer/>
     </>
   )

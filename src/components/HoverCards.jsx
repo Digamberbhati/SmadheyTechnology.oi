@@ -26,8 +26,9 @@ const HoverCards = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
 
   return (
-    <div className='max-w-screen-lg sm:h-[70vh] min-h-screen mx-auto relative  '>
-      <div className='w-full h-full absolute sm:top-[-20%] top-0 rounded-lg sm:px-0 px-4'>
+
+    <div className='max-w-screen-lg  sm:h-[70vh]   mx-auto sm:relative  '>
+      <div className='w-full h-full sm:absolute sm:top-[-20%] top-0 rounded-lg sm:px-0 px-4'>
         <div className="flex flex-col sm:flex-row justify-around items-center h-full">
           {cardData.map((card) => (
             <div 
@@ -51,6 +52,7 @@ const HoverCards = () => {
         </div>
       </div>
     </div>
+    
   )
 }
 

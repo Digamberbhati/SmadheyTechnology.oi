@@ -9,8 +9,8 @@ function Home() {
     <div className='w-full min-h-screen flex flex-col py-10 bg-purple-600 justify-center items-center'>
       <Hero />
 
-      <section className='w-full sm:min-h-[70vh] min-h-[120vh] bg-background-600 '>
-      <HoverCards/>
+      <section className='w-full sm:h-[70vh]  bg-background-600'>
+        <HoverCards />
       </section>
 
 
