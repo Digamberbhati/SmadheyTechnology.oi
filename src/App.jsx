@@ -6,7 +6,7 @@ import About from './pages/About'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Services from './pages/Services'
-import Contact from './pages/Contact'
+import Contact from './pages/contactform/Contact'
 
 function App() {
   return (
