@@ -10,7 +10,7 @@ const Contact = () => {
         backgroundImage: `url(${contact})`,
     }}
     className='flex justify-center items-center sm:h-[50vh] h-[30vh] w-full bg-cover bg-center text-white relative'>
-      <h1 className='sm:text-[4vw] text-[6vh] font-bold z-20'  >Services.</h1>
+      <h1 className='sm:text-[4vw] text-[6vh] font-bold z-20'  >Contact Us.</h1>
       <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-purple-600 "></div>
     </div>
 
