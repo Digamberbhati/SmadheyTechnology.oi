@@ -24,17 +24,17 @@ const cardData = [
 const AboutCardText = () => {
   return (
     <div className='w-full   mt-16'>
-        <div className='max-w-screen-lg mx-auto h-[90vh]  flex gap-24 '>
-            <div className="img w-1/2 h-full relative    ">
+        <div className='max-w-screen-lg mx-auto sm:h-[90vh]  flex flex-col sm:flex-row sm:gap-24 '>
+            <div className="img sm:w-1/2 h-[50vh] sm:h-full mx-4 sm:mx-0  relative    ">
                 <img src="https://images.unsplash.com/photo-1675434301703-6b7b9ca9f28d?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='w-full h-full object-cover rounded-lg  ' />
 
                 <div className='absolute top-[-3%] right-[-3%] flex flex-col items-center justify-center bg-gradient-to-br from-background-400 to-background-700 rounded-lg p-4 '>
-                    <h1 className='text-[4vw] font-bold text-white'>20+</h1>
-                    <span className='text-[1vw] text-white'>Years of Experience</span>
+                    <h1 className='sm:text-[4vw] text-[4vh] font-bold text-white'>20+</h1>
+                    <span className='sm:text-[1vw] text-[1.5vh] text-white'>Years of Experience</span>
                 </div>
             </div>
-            <div className="text w-1/2 h-full  pt-6 " >
-            <div className='text-[3vw] font-bold text-white tracking-tight leading-[1]'>
+            <div className="text sm:w-1/2 h-full  pt-6 mx-4 sm:mx-0  " >
+            <div className='sm:text-[3vw] text-[4vh]   font-bold text-white tracking-tight leading-[1]'>
             <h1>Maximum Protection</h1>
             <h1>for all your devices.</h1>
             </div>
@@ -51,8 +51,8 @@ const AboutCardText = () => {
                             <img src={card.image} alt={card.title} className="w-12 h-12" />
                         </div>
                         <div className="flex-grow">
-                            <h3 className="text-[1.5vw] font-semibold text-white">{card.title}</h3>
-                            <p className="mt-1 text-[1vw] text-gray-300">{card.description}</p>
+                            <h3 className="sm:text-[1.5vw] text-[2vh] font-semibold text-white">{card.title}</h3>
+                            <p className="mt-1 sm:text-[1vw] text-[1.5vh] text-gray-300">{card.description}</p>
                         </div>
                     </div>
                 ))}

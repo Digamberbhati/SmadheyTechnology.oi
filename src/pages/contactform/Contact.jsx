@@ -9,14 +9,14 @@ const Contact = () => {
     style={{
         backgroundImage: `url(${contact})`,
     }}
-    className='flex justify-center items-center h-[50vh] w-full bg-cover bg-center text-white relative'>
-      <h1 className='text-[4vw] font-bold z-20'  >Services.</h1>
+    className='flex justify-center items-center sm:h-[50vh] h-[30vh] w-full bg-cover bg-center text-white relative'>
+      <h1 className='sm:text-[4vw] text-[6vh] font-bold z-20'  >Services.</h1>
       <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-purple-600 "></div>
     </div>
 
     <div className="arch_contact_us_duplicate">
       <div className="responsive-container-block big-container">
-        <div className="responsive-container-block container">
+        <div className="responsive-container-block container space-y-10 sm:space-y-0">
           <div className="responsive-cell-block wk-mobile-12 wk-desk-5 wk-tab-10 wk-ipadp-5" id="ih6s">
             <p className="text-blk section-head">
               Get in touch dolor sit

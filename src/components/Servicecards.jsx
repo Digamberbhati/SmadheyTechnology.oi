@@ -5,7 +5,7 @@ import servicesData from '../utils/ServiceData.json'
 
 const Servicecards = () => {
   return (
-    <div className='max-w-screen-lg mx-auto h-[100vh] text-white  '>
+    <div className='max-w-screen-lg mx-auto sm:h-[100vh] h-auto text-white px-4 sm:px-0  '>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 py-12">
         {servicesData.map((service) => (
           <div key={service.id} className="flex flex-col justify-center items-center bg-gradient-to-br from-purple-800 via-purple-700 to-purple-900 p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out">
