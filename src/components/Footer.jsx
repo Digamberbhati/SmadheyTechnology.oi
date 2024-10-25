@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
    
-<footer className='bg-background-400'>
+<footer className='bg-background-500 text-text'>
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -19,10 +19,10 @@ function Footer() {
                   <h2 className="mb-6 text-sm font-semibold uppercase">Resources</h2>
                   <ul className="font-medium">
                       <li className="mb-4">
-                          <Link to="#" className="hover:underline">Flowbite</Link>
+                          <Link to="/services" className="hover:underline">Services</Link>
                       </li>
                       <li>
-                          <Link to="#" className="hover:underline">Tailwind CSS</Link>
+                          <Link to="/contact" className="hover:underline">Contact</Link>
                       </li>
                   </ul>
               </div>
@@ -30,10 +30,10 @@ function Footer() {
                   <h2 className="mb-6 text-sm font-semibold uppercase">Follow us</h2>
                   <ul className="font-medium">
                       <li className="mb-4">
-                          <Link to="#" className="hover:underline">Github</Link>
+                          <Link to="#" className="hover:underline">Instagram</Link>
                       </li>
                       <li>
-                          <Link to="#" className="hover:underline">Discord</Link>
+                          <Link to="#" className="hover:underline">Facebook</Link>
                       </li>
                   </ul>
               </div>

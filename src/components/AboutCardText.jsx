@@ -24,9 +24,9 @@ const cardData = [
 const AboutCardText = () => {
   return (
     <div className='w-full   mt-16'>
-        <div className='max-w-screen-lg mx-auto h-[90vh]  flex gap-24'>
-            <div className="img w-1/2 h-full relative  overflow-hidden  ">
-                <img src="https://images.unsplash.com/photo-1675434301703-6b7b9ca9f28d?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='w-full h-full object-cover rounded-lg hover:scale-125 transition-all duration-300 ease-in-out' />
+        <div className='max-w-screen-lg mx-auto h-[90vh]  flex gap-24 '>
+            <div className="img w-1/2 h-full relative    ">
+                <img src="https://images.unsplash.com/photo-1675434301703-6b7b9ca9f28d?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='w-full h-full object-cover rounded-lg  ' />
 
                 <div className='absolute top-[-3%] right-[-3%] flex flex-col items-center justify-center bg-gradient-to-br from-background-400 to-background-700 rounded-lg p-4 '>
                     <h1 className='text-[4vw] font-bold text-white'>20+</h1>
