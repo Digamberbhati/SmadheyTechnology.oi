@@ -1,6 +1,7 @@
 import React from 'react'
-import hero from '../../public/images/hero.jpg'
+import hero from '/images/hero.jpg'
 import { Link } from 'react-router-dom'
+import HoverCards from './HoverCards'
 const Hero = () => {
   return (
     <div
@@ -19,7 +20,7 @@ const Hero = () => {
         <Link to="/services" className='bg-background-400 text-text px-6 py-2 h-12 flex items-center justify-c mt-6 hover:bg-background-500 transition-colors duration-300'>Get Started</Link>
       </div>
         
-      <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-purple-600 opacity-70"></div>
+      <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-purple-600 "></div>
       
     </div>
   )
