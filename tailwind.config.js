@@ -8,18 +8,18 @@ export default {
     extend: {
       colors: {
         background: {
-          50: '#F9EAFD',
-          100: '#F3D5FB',
-          200: '#EBBFF9',
-          300: '#E3AAF7',
-          400: '#DEACF5', // Original color
-          500: '#D694F3',
-          600: '#CE7CF1',
-          700: '#C664EF',
-          800: '#BE4CED',
-          900: '#B634EB',
+          50: '#faf5ff',
+          100: '#f3e8ff',
+          200: '#e9d5ff',
+          300: '#d8b4fe',
+          400: '#c084fc', // Original color
+          500: '#a855f7',
+          600: '#9333ea',
+          700: '#7e22ce',
+          800: '#6b21a8',
+          900: '#581c87',
         },
-        text: '#000000',
+        text: '#ffffff',
       },
     },
   },

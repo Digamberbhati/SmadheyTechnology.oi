@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Attack & Defense",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "image": "/svg/cybersecurity.svg"
+    },
+    {
+      "id": 2,
+      "title": "Automated Attack",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "image": "/svg/sheild.svg"
+    },
+    {
+      "id": 3,
+      "title": "SIEM Integration",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "image": "/svg/seim.svg"
+    },
+    {
+      "id": 4,
+      "title": "Vulnerability Assessment",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "image": "/svg/pattern.svg"
+    },
+    {
+      "id": 5,
+      "title": "Incident Response",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "image": "/svg/eye.svg"
+    },
+    {
+      "id": 6,
+      "title": "Threat Intelligence",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "image": "/svg/lock.svg"
+    }
+]
