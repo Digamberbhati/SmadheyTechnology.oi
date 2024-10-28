@@ -25,7 +25,7 @@ const ServiceHero = ({cardData , heading, image}) => {
     <div className='flex-card  max-w-screen-xl mx-auto py-10'>
             <div className="  flex justify-between gap-4 flex-wrap">
                 {cardData.map((card) => (
-                    <div key={card.id} className="flex items-start bg-background-800 p-4 rounded-lg  transition-all duration-300 ease-in-out w-[32%] h-52 hover:scale-[1.1] ">
+                    <div key={card.id} className="flex items-start bg-background-800 p-4 rounded-lg  transition-all duration-300 ease-in-out w-[32%] min-h-52 hover:scale-[1.1] ">
                         
                         <div className="flex flex-col gap-10 h-full">
                             <h3 className="sm:text-[1.5vw] text-[2vh] font-semibold text-white">{card.title}</h3>
