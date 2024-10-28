@@ -12,7 +12,7 @@ const Servicecards = () => {
             <img src={service.image} alt={service.title} className="w-24 h-24 mb-4" />
             <h3 className="text-xl md:text-2xl text-center font-bold mb-2">{service.title}</h3>
             <p className="text-sm md:text-base text-gray-200 mb-4 text-center">{service.description}</p>
-            <Link to={`/`} className="flex items-center gap-2 transition-colors duration-300">
+            <Link to={service.link} className="flex items-center gap-2 transition-colors duration-300">
               LEARN MORE <span className='bg-purple-600 rounded-full flex items-center justify-center h-6 w-6'><TbMathGreater className='text-xs' /></span>
             </Link>
           </div>

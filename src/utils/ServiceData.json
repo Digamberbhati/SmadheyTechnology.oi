@@ -1,38 +1,68 @@
 [
     {
       "id": 1,
-      "title": "Attack & Defense",
+      "title": "Scale Application Small to Enterprise Level",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
-      "image": "/svg/cybersecurity.svg"
+      "image": "/svg/mobile.svg",
+      "link": "/services/scale-application"
     },
     {
       "id": 2,
-      "title": "Automated Attack",
+      "title": "Secure Websites",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
-      "image": "/svg/sheild.svg"
+      "image": "/svg/web.svg",
+      "link": "/services/secure-websites"
     },
     {
       "id": 3,
-      "title": "SIEM Integration",
+      "title": "Angular Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
-      "image": "/svg/seim.svg"
+      "image": "/svg/angular.svg",
+      "link": "/services/angular-development"
     },
     {
       "id": 4,
-      "title": "Vulnerability Assessment",
+      "title": "React Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
-      "image": "/svg/pattern.svg"
+      "image": "/svg/react.svg",
+      "link": "/services/react-development"
     },
     {
       "id": 5,
-      "title": "Incident Response",
+      "title": "B2B Collabration",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
-      "image": "/svg/eye.svg"
+      "image": "/svg/b2b.svg",
+      "link": "/services/b2b-collaboration"
     },
     {
       "id": 6,
-      "title": "Threat Intelligence",
+      "title": "AI +  Data Analysis",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
-      "image": "/svg/lock.svg"
+      "image": "/svg/ai.svg",
+      "link": "/services/ai-data-analysis"
+    },
+    {
+      "id": 7,
+      "title": "Firebase integration",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "image": "/svg/firebase.svg",
+      "link": "/services/firebase-integration"
+    },
+    {
+      "id": 8,
+      "title": "Software integration",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "image": "/svg/software.svg",
+      "link": "/services/software-architechure"
+    },
+    {
+      "id": 9,
+      "title": "Java  Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "image": "/svg/java.svg",
+      "link": "/services/java-development"
     }
+  
+
+
 ]
