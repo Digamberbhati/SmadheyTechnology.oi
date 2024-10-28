@@ -2,67 +2,64 @@
     {
       "id": 1,
       "title": "Scale Application Small to Enterprise Level",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "description": "Transform your application from small-scale to enterprise-level with our comprehensive scaling solutions.",
       "image": "/svg/mobile.svg",
       "link": "/services/scale-application"
     },
     {
       "id": 2,
       "title": "Secure Websites",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "description": "Build and maintain highly secure websites protected against modern cyber threats and vulnerabilities.",
       "image": "/svg/web.svg",
       "link": "/services/secure-websites"
     },
     {
       "id": 3,
       "title": "Angular Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "description": "Create dynamic single-page applications with Angular framework for optimal performance and user experience.",
       "image": "/svg/angular.svg",
       "link": "/services/angular-development"
     },
     {
       "id": 4,
       "title": "React Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "description": "Develop modern, responsive user interfaces using React's component-based architecture for seamless web applications.",
       "image": "/svg/react.svg",
       "link": "/services/react-development"
     },
     {
       "id": 5,
       "title": "B2B Collabration",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "description": "Enable seamless business-to-business collaboration through integrated platforms and streamlined communication solutions.",
       "image": "/svg/b2b.svg",
       "link": "/services/b2b-collaboration"
     },
     {
       "id": 6,
       "title": "AI +  Data Analysis",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "description": "Leverage artificial intelligence and advanced data analytics to derive meaningful insights for business growth.",
       "image": "/svg/ai.svg",
       "link": "/services/ai-data-analysis"
     },
     {
       "id": 7,
       "title": "Firebase integration",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "description": "Integrate Firebase backend services for real-time database, authentication, and cloud storage functionality.",
       "image": "/svg/firebase.svg",
       "link": "/services/firebase-integration"
     },
     {
       "id": 8,
       "title": "Software integration",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "description": "Seamlessly connect and integrate various software systems to create unified, efficient business solutions.",
       "image": "/svg/software.svg",
       "link": "/services/software-architechure"
     },
     {
       "id": 9,
       "title": "Java  Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ultricies justo eget consectetur.",
+      "description": "Build robust, scalable applications using Java programming language for enterprise-level software solutions.",
       "image": "/svg/java.svg",
       "link": "/services/java-development"
     }
-  
-
-
 ]

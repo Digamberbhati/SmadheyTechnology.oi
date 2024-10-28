@@ -19,10 +19,10 @@ const Contact = () => {
         <div className="responsive-container-block container space-y-10 sm:space-y-0">
           <div className="responsive-cell-block wk-mobile-12 wk-desk-5 wk-tab-10 wk-ipadp-5" id="ih6s">
             <p className="text-blk section-head">
-              Get in touch dolor sit
+            Connect with us today!
             </p>
             <p className="text-blk section-subhead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            Reach out to us today and let’s explore how we can tackle your tech challenges together! Your solutions are just a message away.
             </p>
             <img src="/images/plane.png" alt="" className='w-full' />
 

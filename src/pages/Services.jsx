@@ -24,7 +24,7 @@ const Services = () => {
                 <h1 className='sm:text-[4vw] text-[4vh] font-bold text-center leading-none '>Expose Unknown Threats</h1>
                 <h1 className='sm:text-[4vw] text-[4vh] font-bold text-center leading-none '>Become a Problem </h1>
 
-                <p className='sm:text-[1.2vw] text-[1.5vh] sm:w-1/2 px-3 sm:px-0 leading-[1.5] sm:leading-[1.3vw] text-center pt-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error ratione molestias excepturi vitae quidem ab repellat ut culpa exercitationem.</p>
+                <p className='sm:text-[1.2vw] text-[1.5vh] sm:w-1/2 px-3 sm:px-0 leading-[1.5] sm:leading-[1.3vw] text-center pt-6'>Smadhey Technology specializes in Java, React, Angular, and Firebase development, offering seamless B2B collaboration solutions to enhance efficiency and drive business growth.</p>
         </section>
 
         <Servicecards/>
@@ -42,7 +42,7 @@ const Services = () => {
             <h1 className='sm:text-[3vw] text-[4vh] font-bold opacity-90 text-center'>Why Not Check Out These Resources</h1>
             <h1 className='sm:text-[3vw] text-[4vh] font-bold opacity-90 text-center'>to Help You Security Solutions</h1>
 
-            <p className='sm:pt-8 pt-4 sm:text-[1.2vw] text-[1.5vh] leading-[1.5] sm:leading-[1.2] opacity-60 w-3/5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptate cumque. Numquam molestias neque sit esse eaque totam cumque illo?</p>
+            <p className='sm:pt-8 pt-4 sm:text-[1.2vw] text-[1.5vh] leading-[1.5] sm:leading-[1.2] opacity-60 w-3/5'>At Smadhey Technology, we provide tailored solutions for your tech challenges, leveraging expertise in Java, React, Angular, and Firebase to drive your success.</p>
 
             <div className='flex sm:w-1/5 sm:text-[2vw] gap-8 text-[3vh] items-center justify-between  mt-10 '>
             <Link className='hover:text-purple-500 duration-300' to="#"><RiInstagramFill /></Link>

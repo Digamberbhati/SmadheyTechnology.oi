@@ -15,7 +15,8 @@ const Hero = () => {
         <h1 className='sm:text-[4vw] text-[5vh] font-bold  '>cyberspace, secure</h1>
         <h1 className='sm:text-[4vw] text-[5vh] font-bold  '>your digital life</h1>
 
-        <p className='sm:text-[1.2vw] w-4/5 text-[1.7vh] text-center sm:text-start pt-6 sm:w-3/5 leading-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error ratione molestias excepturi vitae quidem ab repellat ut culpa exercitationem.</p>
+        <p className='sm:text-[1.2vw] w-4/5 text-[1.7vh] text-center sm:text-start pt-6 sm:w-3/5 leading-normal'>
+        Smadhey Technology delivers cutting-edge IT and cyber solutions, ensuring robust security and innovative technology tailored to meet your business needs effectively and efficiently.</p>
 
         <Link to="/services" className='bg-background-400 text-text px-6 py-2 h-12 flex items-center justify-c mt-6 hover:bg-background-500 transition-colors duration-300'>Get Started</Link>
       </div>
