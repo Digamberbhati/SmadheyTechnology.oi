@@ -4,7 +4,7 @@ function Servicebanner({ heading, description, img }) {
   return (
     <>
       <section className="text-gray-600 body-font overflow-hidden">
-        <div className="container px-5 py-12 mx-auto">
+        <div className="container  py-10 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
               <h1 className="text-gray-900 text-3xl title-font  mb-4 font-bold">{heading}</h1>

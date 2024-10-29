@@ -12,9 +12,10 @@ const Navbar = () => {
 
   return (
    <>
-   <nav className='  py-2 bg-background-500 text-text sm:px-5 px-3 flex justify-between items-center   z-50 fixed top-0 left-0 w-full '>
+   <nav className='   bg-background-50 text-background-500 sm:px-5 px-3 flex justify-between items-center   z-50 fixed top-0 left-0 w-full '>
  <Link to="/">  
-  <h1 className='sm:text-2xl text-[2.5vh] font-bold'>Smadhey Technology</h1></Link>
+  <img src="/logo.svg" alt="" className='h-16 object-cover' />
+  </Link>
   
     <Link 
       onClick={() => setMenuOpen(!menuOpen)} 
