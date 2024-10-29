@@ -52,7 +52,7 @@ function Footer() {
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-center">
-          <span className="text-sm sm:text-center">© 2023 <Link to="#" className="hover:underline"> <span className='font-bold'>  Smadhey Technology </span></Link>. All Rights Reserved.
+          <span className="text-sm sm:text-center">© 2023 <Link to="#" className="hover:underline"> <span className='font-bold'>  Smadhey Technology </span></Link>. All Rights Reserved. | Designed & Developed by <Link to="https://greatertechhub.com" target='_blank' className="hover:underline font-bold">GreaterTechHub</Link>
           </span>
           
       </div>
