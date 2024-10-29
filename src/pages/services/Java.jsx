@@ -1,5 +1,6 @@
 import React from 'react'
 import ServiceHero from './ServiceHero'
+import Servicebanner from '../../components/Servicebanner'
 
 const Java = () => {
   const image = "https://miro.medium.com/v2/resize:fit:700/0*gtY-llyEbkeoS1Sp.png"
@@ -23,6 +24,7 @@ const Java = () => {
   return (
     <div className='w-full'>
       <ServiceHero cardData={cardData} heading={"Java Development"} image={image}/>
+      <Servicebanner heading={"Java Development"} description={"Leverage Java's robust ecosystem and enterprise-grade features to build scalable, maintainable applications. Our expert Java developers utilize frameworks like Spring Boot and tools for concurrency to deliver high-performance, reliable solutions that meet your business needs."} img={image}/>
     </div>
   )
 }

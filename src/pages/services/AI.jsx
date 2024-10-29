@@ -1,5 +1,6 @@
 import React from 'react'
 import ServiceHero from './ServiceHero'
+import Servicebanner from '../../components/Servicebanner'
 
 const AI = () => {
 
@@ -29,6 +30,7 @@ const cardData = [
   return (
     <div className='w-full '>
       <ServiceHero image = {image} cardData={cardData} heading={"Artificial Intelligence and Data Analysis"} />
+      <Servicebanner heading={"AI + Data Analytics"} description={"Leverage the power of artificial intelligence and data analytics to gain actionable insights, automate processes, and make data-driven decisions that transform your business operations and drive innovation."} img={image}/>
     </div>
   )
 }

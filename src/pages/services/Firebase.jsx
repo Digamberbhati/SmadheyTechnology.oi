@@ -1,5 +1,6 @@
 import React from 'react'
 import ServiceHero from './ServiceHero'
+import Servicebanner from '../../components/Servicebanner'
 
 const Firebase = () => {
   const image = "https://coderealities.com/_next/image?url=http%3A%2F%2F127.0.0.1%3A3001%2Fpictures%2Ffirebase2-remote-config.png&w=1080&q=75"
@@ -23,6 +24,7 @@ const Firebase = () => {
   return (
     <div className='w-full '>
       <ServiceHero cardData={cardData} image={image } heading={"FireBase Integration"}/>
+      <Servicebanner heading={"Firebase Integration"} description={"Leverage Firebase's powerful suite of cloud services to build scalable applications. From real-time databases and authentication to cloud functions and hosting, our Firebase integration solutions provide the backend infrastructure you need for modern web and mobile applications."} img={image}/>
     </div>
   )
 }

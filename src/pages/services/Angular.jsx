@@ -1,5 +1,6 @@
 import React from 'react'
 import ServiceHero from './ServiceHero'
+import Servicebanner from '../../components/Servicebanner'
 
 const Angular = () => {
   const cardData = [
@@ -27,6 +28,7 @@ const Angular = () => {
   return (
     <div className='w-full'>
       <ServiceHero cardData={cardData} heading={"Angular Development"} image={image} />
+      <Servicebanner heading={"Angular Development"} description={"Angular is a powerful framework for building scalable web applications with TypeScript, offering robust features like dependency injection, routing, and component-based architecture."} img={image}/>
     </div>
   )
 }

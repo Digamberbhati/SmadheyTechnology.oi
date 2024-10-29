@@ -1,5 +1,6 @@
 import React from 'react'
 import ServiceHero from './ServiceHero'
+import Servicebanner from '../../components/Servicebanner'
 
 const ScaleApp = () => {
   const cardData = [
@@ -29,6 +30,7 @@ const image = "https://plus.unsplash.com/premium_photo-1661658740167-45b56833412
   return (
     <div className='w-full min-h-screen '>
     <ServiceHero cardData={cardData} heading={heading} image={image}/>
+    <Servicebanner heading={"Scale Your Application"} description={"Transform your small application into an enterprise-level solution with our comprehensive scaling services. We optimize performance, enhance security, and implement robust architectures to ensure your application can handle growing user demands while maintaining reliability and efficiency."} img={image}/>
     </div>
   )
 }

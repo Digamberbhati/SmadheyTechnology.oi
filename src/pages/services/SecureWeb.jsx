@@ -1,5 +1,6 @@
 import React from 'react'
 import ServiceHero from './ServiceHero'
+import Servicebanner from '../../components/Servicebanner'
 
 const SecureWeb = () => {
 const cardData = [
@@ -27,6 +28,7 @@ const cardData = [
   return (
     <div className='w-full min-h-screen '>
       <ServiceHero cardData={cardData} heading={"Secure Websites"} image= "/images/hero.jpg"  />
+      <Servicebanner heading={"Secure Web Development"} description={"Protect your online presence with our comprehensive web security solutions. We implement robust security measures, encryption protocols, and best practices to safeguard your website from cyber threats, ensure data privacy, and maintain compliance with security regulations."} img={"/images/hero.jpg"}/>
     </div>
   )
 }

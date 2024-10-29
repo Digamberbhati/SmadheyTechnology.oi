@@ -1,5 +1,6 @@
 import React from 'react'
 import ServiceHero from './ServiceHero'
+import Servicebanner from '../../components/Servicebanner'
 
 const B2B = () => {
   const cardData = [{
@@ -26,6 +27,7 @@ const image = "https://blog-assets.freshworks.com/freshdesk/wp-content/uploads/2
   return (
     <div className='w-full '>
     <ServiceHero cardData={cardData} heading={"Business - to- Business Collabration"} image={image}/>
+    <Servicebanner heading={"B2B Solutions"} description={"Streamline your business partnerships with our comprehensive B2B solutions. We facilitate seamless collaboration, enhance supply chain efficiency, and create strategic opportunities for sustainable growth and market expansion."} img={image}/>
   </div>
   )
 }
