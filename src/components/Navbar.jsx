@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { TfiClose, TfiMenu } from 'react-icons/tfi';
 import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
@@ -21,9 +22,9 @@ const Navbar = () => {
     >
       {/* <span className='text-[2.5vw] flex items-center justify-center'>•</span> */}
       <span className='text-[2.5vh] sm:text-2xl'>
-        {menuOpen ? 'close' : 'menu'}
+        {menuOpen ? <TfiClose /> : <TfiMenu />}
       </span>
-      <span className='absolute left-0 bottom-0 w-full h-[2px] bg-[#737057] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100'></span>
+     
     </Link>
    </nav>
    <div 
